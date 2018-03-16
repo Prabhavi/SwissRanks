@@ -1,0 +1,284 @@
+html,body{
+	height: 100%;
+	width: 100%
+}
+.navbar{
+	
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 0 0px;
+
+}
+.navbar-expand-lg .navbar-nav li a{
+	color: #D5D5D5;
+
+}
+.navbar-expand-lg .navbar-nav li a:hover,.navbar-expand-lg .navbar-nav li a:active{
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+
+#home {
+	background: url(images/solar.jpg) no-repeat center center fixed;
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1{
+	font-size: 500%;
+	font-weight: 700;
+	color: #FFFFFF;
+
+}
+.landing-text h2{
+	font-size: 400%;
+	font-weight: 600;
+	color: #D5D5D5;
+
+}
+
+.padding{
+	padding: 20px 0;
+	
+}
+.padding img{
+	width: 100%;
+	
+	background-color: #23416C;
+
+
+}
+.padding h2{
+	font-size: 400%;
+	font-weight: 600;
+	font-family: sans-serif;
+	color: #000000;
+
+}
+.padding p{
+	font-size: 180%;
+	font-weight: 200;
+	font-family: sans-serif;
+	color: #000000;
+
+}
+#fixed{
+	background: url(images/tech_1.jpg)no-repeat center center fixed;
+	display: table;
+	height: 80%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+
+}
+/*
+#fixed:hover{
+	background: url(images/tech_1.jpg)no-repeat center center fixed;
+	display: table;
+	height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.5;
+}*/
+.exploreButton{
+	
+    display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+
+
+
+}
+.exploreButton a{
+	font-size:200%;
+	font-weight: 700;
+	color: #000000;
+	border: 2px dotted red;
+	background-color: #DC143C;
+	opacity: 0.85;
+
+}
+.exploreButton a:hover{
+	font-size:200%;
+	font-weight: 700;
+	color: #FFFFFF;
+	border:none;
+	opacity: none;
+	background-color: #DC143C;
+	border-left: 6px solid red;
+	border-right: 6px solid red;
+		/*background-color: #DC143C;*/
+
+}
+
+#homePartnerPage {
+	background: url(images/handshake.jpg) no-repeat center center fixed;
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.partnerpageButton {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	padding: 20px 20px;
+	height:150px; 
+	width:300px;
+	border: none;
+    position: relative;
+    background: url(images/solar.jpg)no-repeat center center fixed;
+    background-size: cover;
+
+	
+
+}
+
+.partnerpageButton a {
+    
+    font-size:200%;
+	font-weight: 700;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+    padding: 20px 60px ;
+    
+
+}
+
+.padding .container .row i{
+	font-size: 50px;
+	line-height: 38px;
+	color: #23416C;
+	font-weight: 600;
+	padding:20px; 
+} 
+
+.fixed .row .exploreButton{
+	/*background: url(images/solar.jpg)no-repeat center center fixed;*/
+	background-color: #DC143C;
+	opacity: 0.85;
+	display: table;
+	height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    border-radius:35px;
+}
+.fixed .row .exploreButton h2{
+	font-size: 400%;
+	font-weight: 600;
+	font-family: sans-serif;
+	color: #FFFFFF
+
+
+}
+/*css for services page*/
+#homeservicesPage {
+	background: url(images/services.jpg) no-repeat center center fixed;
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+/*css for privacy page*/
+#privacyhome {
+	background: url(images/privacy-policy.jpg) no-repeat center center fixed;
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+/*css for success1 page*/
+#success1home{
+	background: url(images/success.jpg) no-repeat center center fixed;
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+
+/*css for success1 page*/
+#contacthome{
+	background: url(images/Contact-Us.jpg) no-repeat center center fixed;
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+/*css for aboutUs page*/
+#homeaboutPage {
+	background: url(images/aboutus.jpg) no-repeat center center fixed;
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    
+}
+
+.desc {
+    padding: 2px;
+    text-align: center;
+}
+
+#homeIndustries {
+	background: url(images/High_Tech.jpg) no-repeat center center fixed;
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+/* homethankPage*/
+#homethankPage {
+	background: url(images/thank.jpg) no-repeat center center fixed;
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
